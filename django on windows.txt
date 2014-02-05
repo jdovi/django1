@@ -1,0 +1,20 @@
+install python27 to c:\Python27 using windows installer package
+Set environment variables for windows 
+[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27\;C:\Python27\Scripts\;C:\PYTHON27\DLLs\;C:\PYTHON27\LIB\;", "User")
+install postgesql using windows installer package
+	set postgres pwd to race2win
+install psycopg2.exe using windows installer package
+install python setuptools.  This will add easy_install.exe to c:\python27\scripts
+from powershell run .\easy_install pip
+install git from git-scm.com for version control
+pip install virtualenv
+	mkdir c:\django\
+	virtualenv django0
+	cd \scripts\
+	.\avctivate
+	deactivate (if you want to close the session)
+pip install django
+easy_install http://www.stickpeople.com/projects/python/win-psycopg/2.5.2/psycopg2-2.5.2.win32-py2.7-pg9.2.6-release.exe
+move django-admin.py (pyc) back to project root
+from django0 run python django-admin.py startproject mysite
+
