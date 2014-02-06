@@ -2,6 +2,7 @@ from django.db import models
 
 # Definition of the waiter class
 class Waiter(models.Model):
+	#ro_num = models.IntegerField()
 	customer = models.CharField(max_length=100)
 	vYear = models.IntegerField()
 	vMake = models.CharField(max_length=25)
