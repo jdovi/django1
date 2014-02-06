@@ -17,4 +17,8 @@ pip install django
 easy_install http://www.stickpeople.com/projects/python/win-psycopg/2.5.2/psycopg2-2.5.2.win32-py2.7-pg9.2.6-release.exe
 move django-admin.py (pyc) back to project root
 from django0 run python django-admin.py startproject mysite
+add an app with manage.py startapp
+configure db and run manage.py syncdb
+create index function and initial template
+create models
 
