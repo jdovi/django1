@@ -1,3 +1,14 @@
+<<<<<<< HEAD
 .pyc
 Lib
 Include
+=======
+.Python
+env
+bin
+lib
+include
+.DS_Store
+.pyc
+Scripts
+>>>>>>> eb2bbe750fec1b23cc71763c3de589dcfe682753
