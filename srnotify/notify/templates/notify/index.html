@@ -13,7 +13,7 @@
 			<tfoot><tr><td colspan="4"><div id="paging"><ul><li><a href="#"><span>Previous</span></a></li><li><a href="#" class="active"><span>1</span></a></li><li><a href="#"><span>2</span></a></li><li><a href="#"><span>3</span></a></li><li><a href="#"><span>4</span></a></li><li><a href="#"><span>5</span></a></li><li><a href="#"><span>Next</span></a></li></ul></div></tr></tfoot>
 			<tbody>
 			{% for customer in customer_list %}
-			<tr {% if customer.id != 0 %} class="alt" {% endif %}><td>{{customer.id}} {{customer}}</td><td>{{customer.vYear}}</td><td>{{customer.vModel}}</td><td>{{customer.status}}</td></tr>
+			<tr class={% cycle "alt" "" %} ><td>{{customer.id}} {{customer}}</td><td>{{customer.vYear}}</td><td>{{customer.vModel}}</td><td>{{customer.status}}</td></tr>
 			<!--<tr><td>data</td><td>data</td><td>data</td><td>data</td></tr>
 			<tr class="alt"><td>data</td><td>data</td><td>data</td><td>data</td></tr>
 			<tr><td>data</td><td>data</td><td>data</td><td>data</td></tr>
